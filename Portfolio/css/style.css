@@ -1,0 +1,59 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+background:#96bbe0;		
+color:#fff2c7;
+font-family: Baskerville,sans-serif; 
+}
+a{color:#fff2c7;}
+
+#container {
+background: #063461;
+/*width:Soopx;*/
+width:90%;
+max-width: 800px;
+margin:auto;
+padding:20px;
+}
+
+nav ul:{
+    list-style:none;
+    padding-left:0pxs;
+    
+}
+nav a{
+color:#fff2c7;
+margin:5px;
+text-decoration: none;
+font-size:1.5em;
+display:inline-block;
+background: black;
+padding:8px;
+    
+}
+nav a:hover { 
+color:#d5e0f5;
+background:#303e59;
+border-radius: 5px}
+
+nav ul{list-style: none;
+padding-left:0px;}
+
+figure{margin: 0px}
+figure img {
+    width:100%;
+}
