@@ -1,0 +1,82 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+    background-color: #a31217;
+}
+
+
+
+
+body {
+	.Fly {
+  font-family: "Gravitas One", Arial;
+  font-weight: 400;
+  font-style: normal;
+color: #f5babb;
+}
+.like {
+  font-family: "Gravitas One", Arial;
+  font-weight: 400;
+  font-style: normal;
+    color: #f5babb;
+}
+    .a {
+  font-family: "Gravitas One", Arial;
+  font-weight: 400;
+  font-style: normal;
+    color: #f5babb;
+}
+    .bird {
+  font-family: "Gravitas One", Arial;
+  font-weight: 400;
+  font-style: normal;
+    color: #f5babb;
+}
+}
+
+
+
+#container {
+	border:;
+    width:800px;
+    margin:auto;
+    position:relative;
+}
+
+p {
+Font-size:6em;
+}
+
+.Fly {
+    position:absolute;
+    top:30px;
+    left:100px;
+    font-size: 250%;
+}
+
+.like {
+    position:relative;
+    top:150px;
+    right:10px;
+}
+
+.a {
+    position: relative;
+    top:150px;
+    right:-5px;
+}
+
+.bird {
+    position: relative;
+    top:270px;
+    left:100px;
+    font-size: 220%;
+}

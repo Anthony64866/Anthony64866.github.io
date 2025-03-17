@@ -1,0 +1,176 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+
+body {
+    -Square1{
+        width:128px;
+        height:64px;
+    }	
+	
+}
+
+
+#container {
+	
+}
+
+
+
+#Square1{
+   Width:200px;
+    height: 200px;
+    background: black;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#Square2{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top:-200px;
+    margin-left: 520px;
+}
+
+#Square3{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:auto;
+    margin-top: -200px;
+    margin-left:740px;
+}
+
+#Square4{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top:20px;
+    margin-left: 300px;
+}
+
+#Square5{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top:-200px;
+    margin-left: 520px;
+}
+
+#Square6{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top: -200px;
+    margin-left:740px;
+}
+
+#Square7{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+#Square8{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top:-200px;
+    margin-left: 525px;
+}
+
+#Square9{
+    Width:200px;
+    height:200px;
+    background: black;
+    border-radius: 50%;
+    margin:inherit;
+    margin-top:-200px;
+    margin-left: 750px;
+}
+
+div#Square1:hover{
+    background: #e3160b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square2:hover{
+    background: #e3610b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square3:hover{
+    background: #e3890b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square4:hover{
+    background: #e3610b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square5:hover{
+    background: #edc351;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square6:hover{
+    background: #faca39;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square7:hover{
+    background: #e3890b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square8:hover{
+    background: #faca39;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+div#Square9:hover{
+    background: #f5f05b;
+    transition:all 0.5s;
+    transform: scale(1.5);
+}
+
+
