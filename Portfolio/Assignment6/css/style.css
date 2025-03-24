@@ -1,0 +1,115 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+color: black;	
+background: #a3a2a2 url(../img/**image**) fixed no repeat center;
+background-size: cover;
+font-family: "Gravitas One";
+}
+
+
+#container {
+	
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    border:1px solid black;
+    padding:10px;
+    margin:10px;
+}
+
+footer {
+    font-size: 0.85em;
+    padding:8px;
+}
+
+.mobile {
+   background:  
+}
+
+.desktop {
+   display:none; 
+}
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+    #container {
+        width:725px;
+        margin:auto;
+    }	
+    section {
+        background: pink;
+    }	
+	
+    body {
+        background: #ffffbd;
+    }
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+    #container{
+        width:1000px;
+        background: #6a9dfc;
+    }  
+    section#first {
+        float:left;
+        width:420px;
+        background: 
+    }	
+	
+    section#second {
+        float:right;
+        width:450px;
+    }
+    
+    footer {
+        clear:both;
+    }
+    
+    .moblie {
+        display: none;
+    }
+	
+    .desktop {
+        display;block;
+    }
+    
+    body {
+        background: #6a9dfc;
+    }
+} /* closes 1024px+ */
+
+
+
