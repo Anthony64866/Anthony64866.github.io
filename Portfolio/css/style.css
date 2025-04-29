@@ -57,3 +57,17 @@ figure{margin: 0px}
 figure img {
     width:100%;
 }
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+    body{
+        background: #
+    }
+    #container{
+        width:75%;
+    }
+    img {
+        width:725px;
+    }
+
+} /* closes 1024px+ */
