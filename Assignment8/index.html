@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	
+	<title>Insporational Quote</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>
+<h1>"It's not about the destination, it's about the journey"</h1>
+<h2>-Ralph Waldo Emerson</h2>
+</header>
+
+<main>
+
+<button id="magic">What does it mean</button> 
+<button id="whatever">Why it is important</button>
+
+
+    
+<p id="minnie">This quote by Ralph Waldo Emerson Is a very popular and well known quote. The meaning behind it is that its not about your desination and where your going but about the way ther and how you get there. It emphisizes the importance of learning lessons and gaining experience on your way to sucess.</p>
+
+<p id="lola">I Believe that this is a very inspirational quote because we all have goals and dreams but we only think about the end and our success but not how we are going to get there. It takes hard work to get to your destination and that why the journey is more important. Focusing on the journey helps you stay and live in the present, Growth is a ongoing process of your life and it needed to achive your dreams and goals</p>
+
+<figure>
+<img src="img/Airplain.pdf"alt="Airplain">
+<figcaption>Its about the journey</figcaption>
+    </figure>
+
+
+
+</main>
+
+
+
+  </div><!-- close "container" -->
+  
+  
+  <!-- Paste the jQuery starter code below here -->
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+  $(document).ready(function() {
+$('p#minnie').hide();
+$('p#lola').hide();
+      
+$('button#magic').click(function(){
+    
+ //$('p#minnie').show();  
+//$('p#minnie').slideDown(1000);
+$('p#minnie').slideToggle(1000);
+    
+});//close click function
+
+$('button#whatever').click(function(){
+//$('p#lola').fadeIn(1500); 
+$('p#lola').slideToggle(1000); 
+
+});//close other function
+      
+      
+$('h2').click(function() {
+ 
+//$('body').css({'background','#fff9c4'});
+    
+//$('body').addClass('omar'); 
+$('body').toggleClass('omar');
+    
+});//close third function
+      
+      
+  }); //close .ready()
+</script>
+
+
+  
+  
+
+</body>
+	
+</html> 
