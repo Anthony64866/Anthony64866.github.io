@@ -1,0 +1,48 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:2px;
+	padding:2px;
+	height:100%;
+    
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1.5em;
+    line-height: 1.4em;
+    font-family:monospace,sans-serif;
+    background-color: aliceblue;
+    
+}
+
+
+
+
+body  {
+color: aliceblue;
+
+	
+}
+
+
+#container {
+	width:80%;
+	margin:auto;
+	background:#030336;
+}
+
+h2{
+    cursor: pointer;
+    display: inline-block;
+}
+
+nav Minnie{
+    padding: 5px;
+}
+
+.Minnie {
+background:#fff9c4;
+color:mediumpurple;
+font-size:2em;
+font-family:Impact,sans-serif;
+}
