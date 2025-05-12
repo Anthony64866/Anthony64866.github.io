@@ -57,7 +57,18 @@ nav a:hover{
 nav li:first-child{
     margin-right: auto;
 }
-
+Input {
+    width:90%;
+    padding:12px 20px;
+    align-content: center;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+align-content: center;
+}
 
  Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later 
 
@@ -120,7 +131,7 @@ body {
 }
 
 .form{
-  width: 300px;
+  width: 500px;
     height: auto;
     justify-content: center;
     padding:20px;
